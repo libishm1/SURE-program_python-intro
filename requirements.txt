@@ -1,0 +1,13 @@
+# Third-party packages used by the Summer_courses scripts.
+# Install with:  pip install -r requirements.txt
+#
+# Everything else (math, time, turtle, random, collections) is in the
+# Python standard library and needs no installation.
+
+numpy            # arrays + linear algebra (robot kinematics, image tracing)
+matplotlib       # 3D / 2D plotting (robot toolpaths, parabola)
+opencv-python    # webcam + image processing (cv2) -- robot_hand_simulation, image_tracing, smile
+
+# Optional: only used by robot_hand_simulation.py for face tracking.
+# The script falls back to a simple colour tracker if this is missing.
+mediapipe        # face/hand detection (optional)
