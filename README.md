@@ -7,6 +7,11 @@ and run them on a simulated 6-DOF robot arm.
 Everything here is an **offline simulation or a local visual** — nothing talks to
 real hardware.
 
+> **The point of this repo:** travel from **syntax** (the literal mechanics of code)
+> to **intent** (describe a goal; let a solver work out the *how*). Read
+> [LEARNING_PATH.md](LEARNING_PATH.md) first — it explains how the files are
+> arranged to take you across that transition.
+
 ## Setup
 
 ```bash
