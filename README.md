@@ -16,6 +16,9 @@ pip install -r requirements.txt
 Requires Python 3.9+. Most scripts open a window (matplotlib or turtle); a few use
 the webcam. See [requirements.txt](requirements.txt) for what each package is for.
 
+New to git/GitHub? See the [GitHub workflow cheat sheet](GITHUB_WORKFLOW.md) for how
+to `add`, `commit`, and `push` your changes.
+
 ---
 
 ## Robot arm + CAM toolpaths (the main project)
